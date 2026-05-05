@@ -19,8 +19,10 @@ Complete Swedish language pack for MikoPBX including UI translations and voice p
 
 ## TTS Attribution
 
-A subset of voice prompts (47 prompts that were missing from the upstream
-Asterisk Swedish sound set) was synthesized locally using neural TTS:
+The Swedish voice prompts shipped with this module were synthesized locally
+using neural TTS. This includes both the supplementary prompts that were
+missing from the upstream Asterisk Swedish sound set and the legacy `.gsm`
+prompts that have been regenerated in higher-fidelity native Swedish:
 
 - **Engine**: [Piper TTS](https://github.com/rhasspy/piper)
 - **Voice model**: `sv_SE-nst-medium` (from

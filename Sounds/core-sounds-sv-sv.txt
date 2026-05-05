@@ -1,12 +1,24 @@
-; Core Asterisk Sounds in Swedish (Svenska) — supplementary set
+; Core Asterisk Sounds in Swedish (Svenska)
 ; Generated using Piper TTS (sv_SE-nst-medium)
 ; Sample rate: 22050 Hz, mono, 16-bit PCM WAV
-; This file lists only the additional prompts produced for missing keys.
+; Total entries: 551
 ;
 activated: Aktiverad.
 added: Tillagd.
+agent-alreadyon: Den agenten är redan inloggad. Ange ditt agentnummer följt av fyrkant.
+agent-incorrect: Inloggning misslyckades. Ange ditt agentnummer följt av fyrkant.
+agent-loggedoff: Agenten är utloggad.
+agent-loginok: Agenten är inloggad.
+agent-newlocation: Ange en ny anknytning följt av fyrkant.
+agent-pass: Ange ditt lösenord följt av fyrkant.
+agent-user: Agentinloggning. Ange ditt agentnummer följt av fyrkant.
 all-circuits-busy-now: Alla linjer är upptagna just nu.
+ascending-2tone: stigande ton
 astcc-followed-by-the-pound-key: Följt av fyrkant.
+auth-incorrect: Felaktigt lösenord. Ange ditt lösenord följt av fyrkant.
+auth-thankyou: Tack.
+beep: pip
+beeperr: felton
 call-forwarding: Vidarekoppling.
 call-fwd-no-ans: Vidarekoppling vid inget svar.
 call-fwd-on-busy: Vidarekoppling vid upptaget.
@@ -15,38 +27,530 @@ call-waiting: Samtal väntar.
 cancelled: Avbruten.
 cannot-complete-as-dialed: Ditt samtal kan inte kopplas som slaget.
 check-number-dial-again: Kontrollera numret och slå igen.
+conf-adminmenu: Tryck 1 för att stänga av eller slå på din mikrofon, 2 för att låsa eller låsa upp konferensen, 3 för att avlägsna senaste deltagaren, 4 eller 6 för att sänka eller höja konferensvolymen, 7 eller 9 för att sänka eller höja din volym, eller 8 för att avsluta.
+conf-adminmenu-162: Tryck 1 för att stänga av eller slå på din mikrofon, 2 för att låsa eller låsa upp konferensen, 3 för att avlägsna senaste deltagaren, 4 eller 6 för att sänka eller höja konferensvolymen, 5 för att förlänga konferensen, 7 eller 9 för att sänka eller höja din volym, eller 8 för att avsluta.
+conf-adminmenu-18: Tryck 1 för att stänga av eller slå på din mikrofon, 2 för att låsa eller låsa upp konferensen, 3 för att avlägsna senaste deltagaren, 4 eller 6 för att sänka eller höja konferensvolymen, 5 för att förlänga konferensen, 7 eller 9 för att sänka eller höja din volym, eller 8 för fler alternativ.
+conf-adminmenu-menu8: Tryck 1 för att lista deltagare i konferensen, 2 för att avlägsna alla icke-administratörer, 3 för att stänga av eller slå på alla icke-administratörers mikrofoner, 4 för att spela in konferensen, eller 8 för att avsluta menyn och återgå till konferensen.
+conf-enteringno: Du går in i konferens nummer
+conf-errormenu: Ogiltigt val.
+conf-extended: Konferensen har förlängts.
 conf-full: Konferensen är full.
+conf-getchannel: Ange kanalnumret följt av fyrkant.
+conf-getconfno: Ange ditt konferensnummer följt av fyrkant.
+conf-getpin: Ange konferensens pin-kod.
+conf-hasjoin: är nu med i konferensen.
+conf-hasleft: har lämnat konferensen.
+conf-invalid: Det är inget giltigt konferensnummer. Försök igen.
+conf-invalidpin: Pin-koden är ogiltig för den här konferensen.
+conf-kicked: Du har avlägsnats från konferensen.
+conf-leaderhasleft: Ledaren har lämnat konferensen.
+conf-locked: Konferensen är låst.
+conf-lockednow: Konferensen är nu låst.
+conf-muted: Din mikrofon är nu avstängd.
+conf-noempty: Det finns inga lediga konferenser för tillfället.
+conf-nonextended: Konferensen kan inte förlängas.
+conf-now-muted: Konferensen är nu tystad.
+conf-now-recording: Konferensen spelas nu in.
+conf-now-unmuted: Konferensen är inte längre tystad.
+conf-onlyone: Det finns en annan deltagare i konferensen.
+conf-onlyperson: Du är ensam i den här konferensen.
+conf-otherinparty: andra deltagare i konferensen
+conf-placeintoconf: Du kommer nu att kopplas in i konferensen.
+conf-roll-callcomplete: Uppspelningen av deltagarlistan är klar.
+conf-thereare: Det finns för närvarande
+conf-unlockednow: Konferensen är nu upplåst.
+conf-unmuted: Din mikrofon är nu påslagen.
+conf-usermenu: Tryck 1 för att stänga av eller slå på din mikrofon, 4 eller 6 för att sänka eller höja konferensvolymen, 7 eller 9 för att sänka eller höja din volym, eller 8 för att avsluta.
+conf-usermenu-162: Tryck 1 för att stänga av eller slå på din mikrofon, 4 eller 6 för att sänka eller höja konferensvolymen, 5 för att förlänga konferensen, 7 eller 9 för att sänka eller höja din volym, eller 8 för att avsluta menyn och återgå till konferensen.
+conf-userswilljoin: deltagare kommer att ansluta till konferensen.
+conf-userwilljoin: deltagare kommer att ansluta till konferensen.
+conf-waitforleader: Konferensen börjar när ledaren ansluter.
+confbridge-begin-glorious-a: konferensen börjar när vår ärade ledare ansluter
+confbridge-begin-glorious-b: konferensen börjar när vår ärade ledare ansluter
+confbridge-begin-glorious-c: konferensen börjar när vår ärade ledare ansluter
+confbridge-begin-leader: konferensen börjar när ledaren ansluter
+confbridge-conf-begin: konferensen börjar nu
+confbridge-conf-end: konferensen har avslutats
+confbridge-dec-list-vol-in: För att sänka volymen från övriga deltagare...
+confbridge-dec-list-vol-out: ...för att sänka volymen från övriga deltagare.
+confbridge-dec-talk-vol-in: För att sänka din samtalsvolym till övriga deltagare...
+confbridge-dec-talk-vol-out: ...för att sänka din samtalsvolym till övriga deltagare.
+confbridge-has-joined: ...har anslutit till konferensen.
+confbridge-has-left: ...har lämnat konferensen.
+confbridge-inc-list-vol-in: För att höja volymen från övriga deltagare...
+confbridge-inc-list-vol-out: ...för att höja volymen från övriga deltagare.
+confbridge-inc-talk-vol-in: För att höja din samtalsvolym till övriga deltagare...
+confbridge-inc-talk-vol-out: ...för att höja din samtalsvolym till övriga deltagare.
+confbridge-invalid: Du har angett ett ogiltigt alternativ.
+confbridge-join: pip
+confbridge-leave: pip
+confbridge-leave-in: För att lämna konferensen...
+confbridge-leave-out: ...för att lämna konferensen.
+confbridge-lock-extended: ...för att låsa eller låsa upp konferensen. När en konferens är låst kan endast administratörer ansluta.
+confbridge-lock-in: För att låsa eller låsa upp konferensen...
+confbridge-lock-no-join: Konferensen är låst och kan inte anslutas till.
+confbridge-lock-out: ...för att låsa eller låsa upp konferensen.
+confbridge-locked: Konferensen är nu låst.
+confbridge-menu-exit-in: För att lämna menyn...
+confbridge-menu-exit-out: ...för att lämna menyn.
+confbridge-mute-extended: ...för att stänga av eller slå på din mikrofon. När din mikrofon är avstängd kan du inte sända ljud till övriga deltagare, men du hör fortfarande andra.
+confbridge-mute-in: För att stänga av eller slå på din mikrofon...
+confbridge-mute-out: ...för att stänga av eller slå på din mikrofon.
+confbridge-muted: Din mikrofon är nu avstängd.
+confbridge-only-one: Du är för närvarande ensam i konferensen.
+confbridge-only-participant: Du är den enda deltagaren i konferensen.
+confbridge-participants: ...deltagare i konferensen.
+confbridge-pin: Ange din pin-kod följt av fyrkant.
+confbridge-pin-bad: Du har angett fel pin-kod för många gånger.
+confbridge-remove-last-in: För att avlägsna den senaste deltagaren som anslöt...
+confbridge-remove-last-out: ...för att avlägsna den senaste deltagaren som anslöt.
+confbridge-removed: Du har avlägsnats från konferensen.
+confbridge-rest-list-vol-in: För att återställa konferensvolymen till standardvärdet...
+confbridge-rest-list-vol-out: ...för att återställa konferensvolymen till standardvärdet.
+confbridge-rest-talk-vol-in: För att återställa din mikrofonvolym till standardvärdet...
+confbridge-rest-talk-vol-out: ...för att återställa din mikrofonvolym till standardvärdet.
+confbridge-there-are: Det finns för närvarande...
+confbridge-unlocked: Konferensen är nu upplåst.
+confbridge-unmuted: Din mikrofon är nu påslagen.
 de-activated: Avaktiverad.
+demo-abouttotry: Du kommer nu att testa demonstrationsfunktionerna.
+demo-congrats: Grattis! Demonstrationen fungerar.
+demo-echodone: Ekotestet är slutfört.
+demo-echotest: Du kommer nu att gå in i ekotestläget. Det du säger kommer att spelas upp för dig. Tryck fyrkant för att avsluta.
+demo-enterkeywords: Ange några nyckelord, åtskilda av fyrkant. Tryck fyrkant två gånger när du är klar.
+demo-instruct: Tryck 1 för ett ekotest, 2 för att lyssna på musik, eller 3 för en demonstration av talsyntes.
+demo-moreinfo: För mer information om Asterisk, besök vår webbplats.
+demo-nogo: Demonstrationen kunde inte startas.
+demo-nomatch: Inga träffar hittades.
+demo-thanks: Tack för att du provade Asterisk.
+descending-2tone: fallande ton
+dictate/both_help: Tryck stjärna för att pausa. Tryck fyrkant för att ange ett nytt filnamn.
+dictate/enter_filename: Ange filnamnet med siffror följt av fyrkant. Eller tryck endast fyrkant för att avsluta.
+dictate/forhelp: Tryck noll för hjälp.
+dictate/pause: Paus.
+dictate/paused: Pausad.
+dictate/play_help: Tryck 1 för inspelningsläge. Tryck 2 för att gå till snabb uppspelning. Tryck 7 för att gå bakåt steg för steg. Tryck 8 för att gå framåt steg för steg.
+dictate/playback: Uppspelning.
+dictate/playback_mode: Uppspelningsläge.
+dictate/record: Inspelning.
+dictate/record_help: Tryck 1 för att gå till uppspelningsläge. Tryck 8 för att spela in på nytt.
+dictate/record_mode: Inspelningsläge.
+dictate/truncating_audio: Trunkerar ljud.
+digits/0: noll
+digits/1: ett
+digits/10: tio
+digits/11: elva
+digits/12: tolv
+digits/13: tretton
+digits/14: fjorton
+digits/15: femton
+digits/16: sexton
+digits/17: sjutton
+digits/18: arton
+digits/19: nitton
 digits/1n: ett
+digits/2: två
+digits/20: tjugo
 digits/2f: två
 digits/2n: två
+digits/3: tre
+digits/30: trettio
+digits/4: fyra
+digits/40: fyrtio
+digits/5: fem
+digits/50: femtio
+digits/6: sex
+digits/60: sextio
+digits/7: sju
+digits/70: sjuttio
+digits/8: åtta
+digits/80: åttio
+digits/9: nio
+digits/90: nittio
+digits/a-m: före middag
+digits/at: klockan
+digits/billion: miljard
+digits/day-0: söndag
+digits/day-1: måndag
+digits/day-2: tisdag
+digits/day-3: onsdag
+digits/day-4: torsdag
+digits/day-5: fredag
+digits/day-6: lördag
+digits/dollars: kronor
+digits/h-1: första
+digits/h-10: tionde
+digits/h-11: elfte
+digits/h-12: tolfte
+digits/h-13: trettonde
+digits/h-14: fjortonde
+digits/h-15: femtonde
+digits/h-16: sextonde
+digits/h-17: sjuttonde
+digits/h-18: artonde
+digits/h-19: nittonde
+digits/h-2: andra
+digits/h-20: tjugonde
+digits/h-3: tredje
+digits/h-30: trettionde
+digits/h-4: fjärde
+digits/h-40: fyrtionde
+digits/h-5: femte
+digits/h-50: femtionde
+digits/h-6: sjätte
+digits/h-60: sextionde
+digits/h-7: sjunde
+digits/h-70: sjuttionde
+digits/h-8: åttonde
+digits/h-80: åttionde
+digits/h-9: nionde
+digits/h-90: nittionde
+digits/h-billion: miljarder
+digits/h-hundred: hundra
+digits/h-million: miljoner
+digits/h-thousand: tusen
+digits/hundred: hundra
+digits/million: miljon
+digits/minus: minus
+digits/mon-0: januari
+digits/mon-1: februari
+digits/mon-10: november
+digits/mon-11: december
+digits/mon-2: mars
+digits/mon-3: april
+digits/mon-4: maj
+digits/mon-5: juni
+digits/mon-6: juli
+digits/mon-7: augusti
+digits/mon-8: september
+digits/mon-9: oktober
+digits/oclock: klockan
+digits/oh: noll
+digits/p-m: efter middag
+digits/pound: fyrkant
+digits/star: stjärna
+digits/thousand: tusen
+digits/today: idag
+digits/tomorrow: imorgon
+digits/yesterday: igår
+dir-first: bokstäverna i abonnentens förnamn.
+dir-firstlast: ...bokstäverna i abonnentens för- eller efternamn.
+dir-instr: Om du har hittat rätt person, tryck 1. Annars, tryck stjärna.
+dir-intro: Välkommen till katalogen. Använd knappsatsen för att ange de tre första bokstäverna i abonnentens efternamn. Använd 7 för bokstaven Q och 9 för bokstaven Z.
+dir-intro-fn: Välkommen till katalogen. Använd knappsatsen för att ange de tre första bokstäverna i abonnentens förnamn. Använd 7 för bokstaven Q och 9 för bokstaven Z.
+dir-last: ...bokstäverna i abonnentens efternamn.
+dir-multi1: Tryck...
+dir-multi2: ...för...
+dir-multi3: ...anknytning...
+dir-multi9: Tryck 9 för att fortsätta listan.
+dir-nomatch: Inga matchande poster hittades i katalogen.
+dir-nomore: Det finns inga fler liknande poster.
+dir-pls-enter: Ange de tre första...
+dir-usingkeypad: ...använd 7 för Q och 9 för Z.
+dir-welcome: Välkommen till katalogen.
 disabled: Inaktiverad.
 do-not-disturb: Stör ej.
 enabled: Aktiverad.
 enter-num-blacklist: Ange numret som ska svartlistas.
 entr-num-rmv-blklist: Ange numret som ska tas bort från svarta listan.
+followme/call-from: Inkommande samtal från
+followme/no-recording: Inkommande samtal har registrerats.
+followme/options: Tryck 1 för att besvara samtalet eller 2 om du inte vill ta emot det.
+followme/pls-hold-while-try: Vänta medan vi kopplar samtalet.
+followme/sorry: Tyvärr, det går inte att koppla samtalet just nu.
+followme/status: Abonnenten svarar inte. Systemet försöker nu nå abonnenten via alternativa kanaler.
+hello-world: Hej världen.
+hours: timmar
+invalid: Ogiltigt nummer. Försök igen.
+letters/a: a
+letters/ascii123: vänster måsvinge
+letters/ascii124: lodstreck
+letters/ascii125: höger måsvinge
+letters/ascii126: tilde
+letters/ascii34: citattecken
+letters/ascii36: dollartecken
+letters/ascii37: procenttecken
+letters/ascii38: et-tecken
+letters/ascii39: apostrof
+letters/ascii40: vänster parentes
+letters/ascii41: höger parentes
+letters/ascii42: stjärna
+letters/ascii44: komma
+letters/ascii58: kolon
+letters/ascii59: semikolon
+letters/ascii60: mindre än
+letters/ascii62: större än
+letters/ascii63: frågetecken
+letters/ascii91: vänster hakparentes
+letters/ascii92: omvänt snedstreck
+letters/ascii93: höger hakparentes
+letters/ascii94: cirkumflex
+letters/ascii95: understreck
+letters/ascii96: grav accent
+letters/asterisk: stjärna
+letters/at: snabel-a
 letters/aa: a
+letters/b: be
+letters/c: se
+letters/d: de
+letters/dash: bindestreck
+letters/dollar: dollartecken
+letters/dot: punkt
+letters/e: e
+letters/equals: lika med
+letters/exclaimation-point: utropstecken
+letters/f: ef
+letters/g: ge
+letters/h: hå
+letters/i: i
+letters/j: ji
+letters/k: kå
+letters/l: el
+letters/m: em
+letters/n: en
+letters/o: o
+letters/p: pe
+letters/plus: plus
+letters/q: ku
+letters/r: är
+letters/s: es
+letters/slash: snedstreck
+letters/space: mellanslag
+letters/t: te
+letters/u: u
+letters/v: ve
+letters/w: dubbel-v
 letters/ww: dubbel-v
+letters/x: ex
+letters/y: y
+letters/z: zäta
+letters/zed: zäta
+lowercase: liten bokstav
+minutes: minuter
 number: Nummer.
 number-not-answering: Numret svarar inte.
 one-moment-please: Ett ögonblick, tack.
+pbx-invalid: Tyvärr, det numret finns inte. Försök igen.
+pbx-invalidpark: Tyvärr, inget parkerat samtal hittades på det numret.
+pbx-parkingfailed: Det gick inte att parkera samtalet.
+pbx-transfer: Vidarekoppling.
 phone: Telefon.
+phonetic/9_p: niner
+phonetic/a_p: alpha
+phonetic/b_p: bravo
+phonetic/c_p: charlie
+phonetic/d_p: delta
+phonetic/e_p: echo
+phonetic/f_p: foxtrot
+phonetic/g_p: golf
+phonetic/h_p: hotel
+phonetic/i_p: india
+phonetic/j_p: juliet
+phonetic/k_p: kilo
 phonetic/k_p2: kilo
+phonetic/l_p: lima
+phonetic/m_p: mike
+phonetic/n_p: november
+phonetic/o_p: oscar
+phonetic/p_p: papa
+phonetic/q_p: quebec
+phonetic/r_p: romeo
+phonetic/s_p: sierra
+phonetic/t_p: tango
+phonetic/u_p: uniform
+phonetic/v_p: victor
+phonetic/w_p: whiskey
+phonetic/x_p: xray
+phonetic/y_p: yankee
+phonetic/z_p: zulu
+please-try-again: Försök igen.
 pls-hold-while-try: Vänta medan vi försöker koppla samtalet.
 pls-try-call-later: Försök ringa igen senare.
+priv-callee-options: Tryck 1 om du vill att den här abonnenten ska kunna nå dig nu och i fortsättningen. Tryck 2 om du vill att den här abonnenten ska kopplas till röstbrevlådan nu och i fortsättningen. Tryck 3 för att koppla abonnenten till en uppringningsmeny nu och i fortsättningen. Tryck 4 för att artigt avvisa samtalet nu och i fortsättningen. Tryck 5 för att den här abonnenten i fortsättningen ska kopplas direkt till dig, men den här gången till röstbrevlådan.
+priv-callpending: Det finns ett samtal som väntar från...
+priv-introsaved: Tack. Vänta medan vi kopplar samtalet.
+priv-recordintro: Presentera dig själv.
+privacy-incorrect: Tyvärr, det är ett ogiltigt nummer.
+privacy-prompt: Ange ditt telefonnummer, börja med riktnumret.
+privacy-thankyou: Tack.
+privacy-unident: Den uppringda abonnenten tar inte emot samtal från dolda nummer.
+queue-callswaiting: Vänta på en ledig handläggare.
+queue-holdtime: Beräknad väntetid är
+queue-less-than: mindre än
+queue-minute: minut
+queue-minutes: minuter
 queue-minutex1: minut
 queue-minutex2: minuter
+queue-periodic-announce: Alla våra handläggare är upptagna. Vänta kvar så besvaras ditt samtal av nästa lediga handläggare.
+queue-quantity1: Det finns för närvarande mer än...
+queue-quantity2: ...som väntar på en handläggare.
+queue-reporthold: väntetid
+queue-seconds: sekunder
+queue-thankyou: Tack för ditt tålamod.
+queue-thereare: Din position i kön är
+queue-youarenext: Ditt samtal är först i kön och besvaras av nästa lediga handläggare.
 removed: Borttagen.
+screen-callee-options: Du har följande alternativ. Tryck 1 för att besvara samtalet direkt. Tryck 2 för att skicka samtalet till röstbrevlådan. Tryck 3 för att koppla abonnenten till en uppringningsmeny. Tryck 4 för att artigt avvisa samtalet.
+seconds: sekunder
+silence/1: tystnad
+silence/10: tystnad
+silence/2: tystnad
+silence/3: tystnad
+silence/4: tystnad
+silence/5: tystnad
+silence/6: tystnad
+silence/7: tystnad
+silence/8: tystnad
+silence/9: tystnad
 simul-call-limit-reached: Gränsen för samtidiga samtal har uppnåtts.
+spy-agent: Agent
+spy-console: Konsol
+spy-dahdi: D A H D I
+spy-h323: H 323
+spy-iax: I A X
+spy-iax2: I A X 2
+spy-jingle: Jingle
+spy-local: Lokal
+spy-mgcp: M G C P
+spy-misdn: M I S D N
+spy-mobile: Bluetooth Mobil
+spy-nbs: N B S
+spy-sip: SIP
+spy-skinny: Skinny
+spy-unistim: Unistim
+spy-usbradio: USB-radio
+spy-zap: Zap
+ss-noservice: Det uppringda numret är avstängt. Kontrollera numret och försök igen.
 telephone-number: Telefonnummer.
 to-call-this-number: För att ringa detta nummer.
 to-extension: Till anknytning.
 to-listen-to-it: För att lyssna på det.
 to-rerecord-it: För att spela in det igen.
+transfer: Vänta medan vi kopplar samtalet.
+tt-allbusy: Alla våra handläggare är upptagna just nu. Vänta kvar och ditt samtal besvaras i tur och ordning.
+tt-monkeys: De togs av aporna.
+tt-monkeysintro: De togs av aporna.
+tt-somethingwrong: Något är riktigt fel här...
+tt-weasels: Vårt telefonsystem har blivit uppätet av vesslor.
+uppercase: stor bokstav
+vm-Cust1: Mapp fem.
+vm-Cust2: Mapp sex.
+vm-Cust3: Mapp sju.
+vm-Cust4: Mapp åtta.
+vm-Cust5: Mapp nio.
+vm-Family: familje
+vm-Friends: vänners
+vm-INBOX: nya
+vm-Old: gamla
+vm-Urgent: brådskande meddelanden
+vm-Work: arbets
+vm-advopts: Tryck tre för avancerade alternativ.
+vm-and: och
+vm-calldiffnum: Tryck 2 för att ange ett annat nummer.
+vm-changeto: Vilken mapp vill du byta till?
+vm-delete: Tryck 7 för att radera detta meddelande.
+vm-deleted: Meddelandet har raderats.
+vm-dialout: Vänta medan vi kopplar samtalet.
+vm-duration: Meddelandets längd
 vm-enter-num-to-call: Ange numret du vill ringa.
+vm-extension: Anknytning?
+vm-first: första
+vm-for: för
+vm-forward: Tryck 1 för att ange ett nummer eller 2 för att använda katalogen.
+vm-forward-multiple: Tryck 1 för att skicka meddelandet eller 2 för att lägga till ytterligare en mottagare.
+vm-forwardoptions: Tryck 1 för att kommentera och vidarebefordra meddelandet, eller 2 för att vidarebefordra utan kommentar.
+vm-from: Från
+vm-from-extension: Meddelande från abonnent...
+vm-from-phonenumber: Meddelande från abonnent med nummer...
 vm-goodbye: Adjö.
+vm-helpexit: Tryck stjärna för hjälp eller fyrkant för att avsluta.
+vm-incorrect: Felaktigt lösenord.
+vm-incorrect-mailbox: Felaktigt lösenord. Ange abonnentens nummer på nytt.
+vm-instructions: Tryck 1 för att lyssna på meddelanden. Tryck fyrkant när som helst för att lämna röstbrevlådan.
 vm-intro: Lämna ditt meddelande efter tonen. När du är klar lägger du på eller trycker på fyrkant.
+vm-invalid-password: Lösenordet uppfyller inte minimikraven för den här brevlådan. Försök igen.
+vm-invalidpassword: Det är ett felaktigt lösenord. Försök igen.
+vm-isonphone: är upptagen
+vm-isunavail: är inte tillgänglig
+vm-last: sista
+vm-leavemsg: Tryck fem för att lämna ett röstmeddelande.
+vm-login: Röstbrevlådan. Abonnentens nummer?
+vm-mailboxfull: Tyvärr, abonnentens röstbrevlåda är full.
+vm-marked-nonurgent: Brådskande-markeringen har tagits bort.
+vm-marked-urgent: Meddelandet har markerats som brådskande.
+vm-message: meddelande
+vm-messages: meddelanden
+vm-messagex1: meddelande
+vm-messagex2: meddelanden
+vm-minutes: minuter
+vm-mismatch: Lösenorden stämmer inte överens. Ange lösenorden igen.
+vm-msgforwarded: Ditt meddelande har vidarebefordrats.
+vm-msginstruct: Tryck 6 för att lyssna på nästa meddelande. Tryck 5 för att lyssna på meddelandet igen. Tryck 4 för att lyssna på föregående meddelande. Tryck 0 för att radera eller återställa meddelandet. Tryck fyrkant för att lämna röstbrevlådan.
+vm-msgsaved: Meddelandet har sparats.
+vm-newpassword: Ange ett nytt lösenord följt av fyrkant.
+vm-newuser: Välkommen till röstbrevlådan. Lyssna först på instruktionerna för att konfigurera din brevlåda.
+vm-next: Tryck 6 för att lyssna på nästa meddelande.
+vm-no: nej
+vm-nobodyavail: Ingen är tillgänglig för att besvara ditt samtal just nu.
+vm-nobox: Du kan inte svara på det här meddelandet eftersom avsändaren saknar röstbrevlåda.
+vm-nomore: Det finns inga fler meddelanden.
+vm-nonumber: Tyvärr, avsändaren av meddelandet är okänd.
+vm-num-i-have: Detta är numret jag har antecknat.
+vm-onefor: Tryck 1 för
+vm-onefor-full: Tryck 1 för att lyssna...
+vm-options: Tryck 1 för att spela in ditt meddelande för status otillgänglig. Tryck 2 för att spela in ditt meddelande för status upptagen. Tryck 3 för att spela in ditt namn. Tryck 4 för att spela in ett tillfälligt meddelande. Tryck 5 för att ändra lösenord, eller stjärna för att återgå till huvudmenyn.
+vm-opts: Tryck 2 för att byta mapp. Tryck 3 för avancerade alternativ. Tryck 0 för röstbrevlådans inställningar.
+vm-opts-full: Tryck 2 för att lyssna på meddelanden i en annan mapp, tryck 3 för att spela in ett meddelande till en annan brevlåda, tryck 0 för att hantera lösenord och hälsningar.
+vm-passchanged: Lösenordet har ändrats.
+vm-password: Lösenord
+vm-pls-try-again: Försök igen.
+vm-press: Tryck
+vm-prev: Tryck 4 för föregående meddelande.
+vm-reachoper: Tryck 0 för att kontakta operatören.
+vm-rec-busy: Spela in ditt meddelande för status upptagen efter tonen och tryck fyrkant.
+vm-rec-name: Säg ditt namn efter tonen och tryck fyrkant.
+vm-rec-temp: Spela in ditt tillfälliga meddelande efter tonen och tryck fyrkant.
+vm-rec-unv: Spela in ditt meddelande för status otillgänglig efter tonen och tryck fyrkant.
+vm-record-prepend: Spela in en introduktion till det vidarebefordrade meddelandet efter tonen. Tryck fyrkant när du är klar.
+vm-reenterpassword: Ange lösenordet följt av fyrkant.
+vm-repeat: Tryck 5 för att lyssna på det aktuella meddelandet igen.
+vm-review: Tryck 1 för att godkänna meddelandet, 2 för att lyssna på det, eller 3 för att spela in det på nytt.
+vm-review-nonurgent: Tryck 4 för att ta bort brådskande-markeringen från detta meddelande.
+vm-review-urgent: Tryck 4 för att markera detta meddelande som brådskande.
+vm-saved: Sparat
+vm-savedto: Sparat till
+vm-savefolder: I vilken mapp vill du spara meddelandet?
+vm-savemessage: eller 9 för att spara meddelandet.
+vm-saveoper: Tryck 1 för att godkänna inspelningen. Eller stanna kvar på linjen.
+vm-sorry: Tyvärr, ditt val kunde inte tolkas.
+vm-star-cancel: Tryck stjärna för att avbryta.
+vm-starmain: Tryck stjärna för att återgå till huvudmenyn.
+vm-tempgreetactive: Din tillfälliga hälsning är aktiverad.
+vm-tempgreeting: Tryck 1 för att spela in en tillfällig hälsning.
+vm-tempgreeting2: Tryck 1 för att spela in din tillfälliga hälsning igen, eller 2 för att radera den.
+vm-tempremoved: Din tillfälliga hälsning har raderats.
+vm-then-pound: och tryck sedan fyrkant.
+vm-theperson: Abonnenten med nummer
+vm-tmpexists: Det tillfälliga meddelandet är aktiverat och ersätter dina ordinarie meddelanden.
+vm-tocallback: Tryck 2 för att ringa upp abonnenten som lämnade meddelandet.
+vm-tocallnum: Tryck 1 för att ringa det här numret.
+vm-tocancel: eller fyrkant för att avbryta.
+vm-tocancelmsg: Tryck stjärna för att avbryta meddelandet.
+vm-toenternumber: Tryck 1 för att ange ett nummer.
+vm-toforward: Tryck 8 för att vidarebefordra meddelandet till en annan abonnent.
+vm-tohearenv: Tryck 3 för att lyssna på meddelandets information.
+vm-tomakecall: Tryck fyra för att ringa ett utgående samtal.
+vm-tooshort: Ditt meddelande är för kort.
+vm-toreply: Tryck 1 för att skicka ett svar.
+vm-torerecord: Tryck 3 för att spela in meddelandet igen.
+vm-undelete: Tryck 7 för att återställa meddelandet.
+vm-undeleted: Meddelandet har återställts.
+vm-unknown-caller: Från okänd abonnent.
 vm-received: mottaget
+vm-whichbox: För att lämna ett meddelande, ange abonnentens nummer.
+vm-youhave: Du har
 with: Med.
 you-entered: Du angav.
 your: Ditt.
+</content>
+</invoke>
