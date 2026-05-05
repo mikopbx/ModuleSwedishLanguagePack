@@ -1,0 +1,52 @@
+; Core Asterisk Sounds in Swedish (Svenska) — supplementary set
+; Generated using Piper TTS (sv_SE-nst-medium)
+; Sample rate: 22050 Hz, mono, 16-bit PCM WAV
+; This file lists only the additional prompts produced for missing keys.
+;
+activated: Aktiverad.
+added: Tillagd.
+all-circuits-busy-now: Alla linjer är upptagna just nu.
+astcc-followed-by-the-pound-key: Följt av fyrkant.
+call-forwarding: Vidarekoppling.
+call-fwd-no-ans: Vidarekoppling vid inget svar.
+call-fwd-on-busy: Vidarekoppling vid upptaget.
+call-fwd-unconditional: Ovillkorlig vidarekoppling.
+call-waiting: Samtal väntar.
+cancelled: Avbruten.
+cannot-complete-as-dialed: Ditt samtal kan inte kopplas som slaget.
+check-number-dial-again: Kontrollera numret och slå igen.
+conf-full: Konferensen är full.
+de-activated: Avaktiverad.
+digits/1n: ett
+digits/2f: två
+digits/2n: två
+disabled: Inaktiverad.
+do-not-disturb: Stör ej.
+enabled: Aktiverad.
+enter-num-blacklist: Ange numret som ska svartlistas.
+entr-num-rmv-blklist: Ange numret som ska tas bort från svarta listan.
+letters/aa: a
+letters/ww: dubbel-v
+number: Nummer.
+number-not-answering: Numret svarar inte.
+one-moment-please: Ett ögonblick, tack.
+phone: Telefon.
+phonetic/k_p2: kilo
+pls-hold-while-try: Vänta medan vi försöker koppla samtalet.
+pls-try-call-later: Försök ringa igen senare.
+queue-minutex1: minut
+queue-minutex2: minuter
+removed: Borttagen.
+simul-call-limit-reached: Gränsen för samtidiga samtal har uppnåtts.
+telephone-number: Telefonnummer.
+to-call-this-number: För att ringa detta nummer.
+to-extension: Till anknytning.
+to-listen-to-it: För att lyssna på det.
+to-rerecord-it: För att spela in det igen.
+vm-enter-num-to-call: Ange numret du vill ringa.
+vm-goodbye: Adjö.
+vm-intro: Lämna ditt meddelande efter tonen. När du är klar lägger du på eller trycker på fyrkant.
+vm-received: mottaget
+with: Med.
+you-entered: Du angav.
+your: Ditt.
